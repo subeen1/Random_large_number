@@ -1,0 +1,66 @@
+/* 기본 스타일 */
+body {
+  font-family: "Arial", sans-serif;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+h1 {
+  color: #333;
+}
+
+#result-area {
+  margin-top: 20px;
+  padding: 10px;
+  background-color: #f0f0f0;
+}
+
+#chance-area {
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+#user-input {
+  margin-top: 10px;
+  padding: 5px;
+}
+
+#play-button,
+#reset-button {
+  margin-top: 10px;
+  padding: 10px;
+  background-color: #3498db;
+  color: #fff;
+  cursor: pointer;
+}
+
+/* 반응형 스타일 */
+@media only screen and (max-width: 600px) {
+  h1 {
+    color: #fff; /* 흰색 글자 색상 */
+    background-color: #000; /* 검정색 배경 색상 */
+
+    padding: 10px; /* 내부 여백 */
+    display: inline-block; /* 블록 요소를 인라인 블록으로 설정하여 테두리가 텍스트 주위로 감싸지도록 함 */
+    border-radius: 8px; /* 테두리의 모서리를 둥글게 만듦 */
+    margin-bottom: 20px; /* 하단 여백 추가 */
+  }
+
+  #result-area {
+    font-size: 0.8em;
+  }
+
+  #chance-area {
+    font-size: 0.8em;
+  }
+
+  #user-input {
+    width: 80%;
+  }
+
+  #play-button,
+  #reset-button {
+    width: 80%;
+  }
+}
