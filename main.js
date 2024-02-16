@@ -73,3 +73,5 @@ function reset() {
 
 //콘솔창에 나왔던 결과값을 웹사이트롤 옮겨보자
 pickRandomNum();
+
+//끝~~
